@@ -1,0 +1,3 @@
+main = case ((Inl 1)) of
+             Inl x -> x + 1;
+             Inr y -> y;

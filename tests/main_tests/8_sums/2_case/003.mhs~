@@ -1,0 +1,4 @@
+main = case (recfun f x = Inl x) 1 of
+		  Inl x -> Inr x;
+		  Inr y -> Inl y; ;
+       in x;
