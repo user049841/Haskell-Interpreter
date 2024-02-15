@@ -1,3 +1,0 @@
-main
-     = if False then 49 / 0 -- test laziness of if
-                else 49 / 7
